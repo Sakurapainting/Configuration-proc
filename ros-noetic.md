@@ -1,13 +1,15 @@
 # 安装 ros-noetic
 版本 Ubuntu 20.04.6
 
-`$ sudo apt update`
-
+```bash
+sudo apt update
+```
 
 这里直接采用了鱼香提供的安装工具进行安装（新手推荐）  
 
-`$ wget http://fishros.com/install -O fishros && bash fishros`  
- 
+```bash
+wget http://fishros.com/install -O fishros && bash fishros
+```
 
 ROS相关:  
 [1]:一键安装(推荐):ROS(支持ROS/ROS2,树莓派Jetson)  
@@ -44,15 +46,21 @@ ROS相关:
 
 1.打开第一个终端窗口，运行roscore  
 
-`roscore`  
+```bash
+roscore  
+```
 
 2.打开第二个终端窗口  
 
-`rosrun turtlesim turtlesim_node`  
+```bash
+rosrun turtlesim turtlesim_node
+```  
 
 3.打开第三个终端窗口，输入：  
 
-`rosrun turtlesim  turtle_teleop_key`  
+```bash
+rosrun turtlesim  turtle_teleop_key
+```  
 
 鼠标指针放在第三个窗口里,便可以通过按下 ↑ ↓ ← →键来对小海龟进行控制了  
 
