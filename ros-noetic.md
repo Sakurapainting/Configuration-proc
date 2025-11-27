@@ -8,8 +8,6 @@
 
 `$ wget http://fishros.com/install -O fishros && bash fishros`  
 
----  
-
 ...  
 
 ROS相关:  
